@@ -1,0 +1,127 @@
+{
+  "id": "swtor-in-dnd",
+  "title": "SWTOR in DnD5e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dnd5e-spellpoints",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "novav",
+      "discord": "novav",
+      "flags": {}
+    },
+    {
+      "name": "Star wars The old Republic",
+      "url": "https://store.steampowered.com/app/1286830/STAR_WARS_The_Old_Republic/",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Star Wars The Old Republic",
+      "sorting": "m",
+      "color": "#ffbb00",
+      "packs": [
+        "swtor_klassy",
+        "swtor_podklassy",
+        "swtor_sposobnosti",
+        "swtor_navyki",
+        "swtor_oruzhie",
+        "swtor_prochee"
+      ],
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "swtor_klassy",
+      "label": "Классы",
+      "path": "packs/swtor_klassy",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "swtor_podklassy",
+      "label": "Подклассы",
+      "path": "packs/swtor_podklassy",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "swtor_sposobnosti",
+      "label": "Способности",
+      "path": "packs/swtor_sposobnosti",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "swtor_navyki",
+      "label": "Навыки",
+      "path": "packs/swtor_navyki",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "swtor_oruzhie",
+      "label": "Оружие",
+      "path": "packs/swtor_oruzhie",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "swtor_prochee",
+      "label": "Прочее",
+      "path": "packs/swtor_prochee",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "https://raw.githubusercontent.com/NovaNovav/SWTOR-in-DnD5e/refs/heads/main/assets/Other/background.webp"
+    }
+  ]
+}
